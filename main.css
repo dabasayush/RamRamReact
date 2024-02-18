@@ -1,0 +1,135 @@
+
+
+:root {
+    --t-yellow: #ffc000;
+    --t-brown: #251524
+}
+ h1, h2, h3, h4, h5, h6 {
+    margin: 0px !important;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background: var(--t-brown);
+    height: 103px;
+    padding: 0px;
+    box-shadow: 0 0px 40px -10px rgba(30, 30, 30, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    background-color: var(--t-yellow);
+    width: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 103px;
+}
+nav-items {
+    background-color: ;
+}
+.nav-items ul {
+    display: flex;
+}
+.nav-items ul li {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+}
+.cart-container {
+    background-color: var(--t-yellow);
+    width: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* hero banner */
+.search-box {
+    background-image: url(./images/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 360px;
+}
+
+
+
+/* restro container */
+
+.top-restro-btn, .all-restro-btn{
+    background: var(--t-brown) !important;
+    border: none !important;
+    margin-right: 10px;
+}
+.card-body{
+    padding: 10px !important;
+}
+.restro-card {
+    border: 3px solid #ffc000 !important;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.restro-card:hover {
+    border: 5px solid #ffc000 !important;
+    height: calc(100% - 0.5rem);
+    width: 17.5rem;
+}
+.restro-card-img{
+    height: 200px;
+}
+.res-card-img{
+    height: 100%;
+    width: 100%;
+}
+.restro-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.restro-text h5{
+    font-size: 15px;
+    padding-bottom: 5px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box; /* Required for Safari */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.restro-text h6{
+    font-size: 13px;
+}
+.restro-text p{
+    font-size: 12px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box; /* Required for Safari */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(128, 126, 126);
+}
+.restro-slider{
+    display: flex;
+    justify-content:center ;
+
+}
+.restro-slider svg{
+    color: var(--t-brown);
+}
+.restro-slider svg:hover{
+    color: var(--t-yellow);
+    scale: 1.1;
+}
